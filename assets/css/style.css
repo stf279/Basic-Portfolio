@@ -1,0 +1,37 @@
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+Main header background color: #ffffff
+
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+
+Main content border color: #dddddd
+
+All other fonts: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+*/
+
+
+body {
+    background-color: #ffffff;    
+}
+
+h1, h2, h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+h2 {
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+.footer {
+    background-color: #666666;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
