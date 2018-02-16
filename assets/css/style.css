@@ -24,11 +24,20 @@ body {
 h1, h2, h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+    font-style: color #777777;
+}
+
+h1 {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-width: 5px;
 }
 
 h2 {
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
+    border-width: 2px;
 }
 
 .footer {
