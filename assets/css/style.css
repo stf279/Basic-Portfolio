@@ -16,31 +16,84 @@ Main content border color: #dddddd
 All other fonts: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 */
 
-
+/* Body */
 body {
-    background-color: #ffffff;    
+    background-color: #ffffff; 
+    margin: auto;
+    width: 960px;
+
 }
 
-h1, h2, h4 {
+h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    font-style: color #777777;
+    
 }
 
 h1 {
-    background-color: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-width: 5px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 25px;
 }
 
 h2 {
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-    border-width: 2px;
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+
 }
 
-.footer {
+
+/* Main */
+
+.content {
+    margin: auto;
+    width: 650px;
+    position: relative;
+    right: 157px;
+}
+
+.words {
+    position: relative;
+    left: 240px;
+    bottom: 245px;
+}
+
+.social {
+    margin: auto;
+    width: 270px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #cccccc;
+}
+
+/* Footer */
+h5 {
     background-color: #666666;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+
 }
