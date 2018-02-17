@@ -45,6 +45,9 @@ h2 {
 
 
 /* Main */
+main {
+    background-color: linen;
+}
 
 .content {
     margin: auto;
@@ -53,16 +56,121 @@ h2 {
     right: 157px;
 }
 
+.content h2 {
+    padding: 15px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
 .words {
+    width: 250px;
     position: relative;
     left: 240px;
     bottom: 245px;
 }
 
+/* Social Buttons */
+
 .social {
     margin: auto;
     width: 270px;
+    position: relative;
+    left: 340px;
+    bottom: 465px;
 
+}
+
+.social-contact {
+    margin: auto;
+    width: 270px;
+    position: relative;
+    left: 340px;
+    bottom: 137px;
+
+}
+
+.social-portfolio {
+    margin: auto;
+    width: 270px;
+    position: relative;
+    left: 340px;
+    bottom: 105px;
+
+}
+
+.social h3 {
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+    padding: 15px;
+}
+
+.social-contact h3 {
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+    padding: 15px;
+}
+
+.social-portfolio h3 {
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-bottom-color: #dddddd;
+    padding: 15px;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.social ul li {
+    float: left;
+}
+
+.social ul li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.social-contact ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.social-contact ul li {
+    float: left;
+}
+
+.social-contact ul li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.social-portfolio ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.social-portfolio ul li {
+    float: left;
+}
+
+.social-portfolio ul li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
 }
 
 nav ul {
@@ -91,6 +199,7 @@ nav ul li a:hover {
 
 /* Footer */
 h5 {
+    color: linen;
     background-color: #666666;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
